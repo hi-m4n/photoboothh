@@ -284,7 +284,7 @@ def build_strip(frames, color, o, strip_idx=0):
 
         # Bottom brand & date footer directly on the strip (like 인생네컷 / 2026.11.18)
         footer_top = top_pad + n * fh + (n - 1) * GAP
-        label = (o.get("strip_brand") or "LIFE FOUR CUTS").strip()
+        label = (o.get("strip_brand") or "i luv her so much").strip()
         if label:
             x0, y0, x1, y1 = title_font.getbbox(label)
             ImageDraw.Draw(rgba).text(
@@ -585,7 +585,7 @@ def generate():
         led_stamp=g("led_stamp") == "1",
         led_text=(g("led_text", "") or today_led)[:18],
         film_marks=g("film_marks") == "1",
-        strip_brand=g("strip_brand", "LIFE FOUR CUTS")[:24],
+        strip_brand=g("strip_brand", "i luv her so much")[:24],
         strip_date=g("strip_date", today_dot)[:20],
         tape=g("tape") == "1",
         cutline=g("cutline") == "1",
