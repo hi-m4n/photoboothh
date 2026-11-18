@@ -544,7 +544,7 @@ input[type=range]{width:100%;accent-color:var(--cherry)}
 
  <section class="sec">
   <h2><span class="n">4</span>Finish the print</h2>
-  <div class="row"><label for="caption">Caption</label><input type="text" id="caption" value="Best friends forever" maxlength="60"></div>
+  <div class="row"><label for="caption">Caption</label><input type="text" id="caption" value="i luv her so much" maxlength="60"></div>
   <div class="row"><label for="date">Date stamp</label><div class="inline"><input type="text" id="date" maxlength="30"><button class="btn" id="today" type="button">Today</button></div></div>
   <div class="row"><span class="l">Layout</span><div class="pills" id="layout"></div></div>
   <div class="row"><span class="l">Strip colour</span><div class="pills" id="strip"></div></div>
