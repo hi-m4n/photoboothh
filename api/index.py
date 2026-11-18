@@ -743,8 +743,8 @@ input[type=range]{width:100%;accent-color:var(--cherry)}
   <div class="row">
    <span class="l">4-Cut markings</span>
    <div>
-    <label class="switch"><input type="checkbox" id="filmMarks" checked><span class="track"></span>Add 35mm edge numbers (01 ◀) &amp; strip footer</label>
-    <div id="marksRow" style="margin-top:10px;display:grid;grid-template-columns:1fr 140px;gap:8px">
+    <label class="switch"><input type="checkbox" id="filmMarks"><span class="track"></span>Add 35mm edge numbers (01 ◀) &amp; strip footer</label>
+    <div id="marksRow" style="margin-top:10px;display:grid;grid-template-columns:1fr 140px;gap:8px" hidden>
      <input type="text" id="stripBrand" value="LIFE FOUR CUTS" maxlength="24" placeholder="LIFE FOUR CUTS">
      <input type="text" id="stripDate" maxlength="20" placeholder="2026.11.18">
     </div>
@@ -771,7 +771,7 @@ input[type=range]{width:100%;accent-color:var(--cherry)}
   <div class="row"><label for="vignette">Dark corners</label><input type="range" id="vignette" min="0" max="100" value="12"></div>
   <div class="row"><label for="wear">Paper wear</label><input type="range" id="wear" min="0" max="100" value="0"></div>
   <div class="row"><span class="l">Card paper</span><div class="pills" id="paper"></div></div>
-  <div class="row"><label for="caption">Card caption</label><input type="text" id="caption" value="" placeholder="Optional card caption" maxlength="60"></div>
+  <div class="row"><label for="caption">Card caption</label><input type="text" id="caption" value="" placeholder="I luv her so much" maxlength="60"></div>
   <div class="row"><label for="date">Card date</label><div class="inline"><input type="text" id="date" maxlength="30"><button class="btn" id="today" type="button">Today</button></div></div>
   <div class="row"><span class="l">Short strips</span><label class="switch" style="font-weight:500"><input type="checkbox" id="repeat" checked><span class="track"></span>Repeat photos to fill every frame</label></div>
   <p class="hint">Tip: "Strips on their own" with "Life 4-Cut B&amp;W" or "Life 4-Cut Color" matches classic Korean photo booth strips.</p>
