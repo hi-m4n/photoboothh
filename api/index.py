@@ -745,7 +745,7 @@ input[type=range]{width:100%;accent-color:var(--cherry)}
    <div>
     <label class="switch"><input type="checkbox" id="filmMarks"><span class="track"></span>Add 35mm edge numbers (01 ◀) &amp; strip footer</label>
     <div id="marksRow" style="margin-top:10px;display:grid;grid-template-columns:1fr 140px;gap:8px" hidden>
-     <input type="text" id="stripBrand" value="LIFE FOUR CUTS" maxlength="24" placeholder="LIFE FOUR CUTS">
+     <input type="text" id="stripBrand" value="i luv her so much" maxlength="24" placeholder="i luv her so much">
      <input type="text" id="stripDate" maxlength="20" placeholder="2026.11.18">
     </div>
    </div>
